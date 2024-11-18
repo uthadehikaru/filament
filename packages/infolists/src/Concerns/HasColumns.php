@@ -3,6 +3,7 @@
 namespace Filament\Infolists\Concerns;
 
 use Filament\Infolists\ComponentContainer;
+use Illuminate\Support\Facades\Log;
 
 trait HasColumns
 {
@@ -18,7 +19,7 @@ trait HasColumns
     {
         if (! is_array($columns)) {
             $columns = [
-                'lg' => $columns,
+                'sm' => $columns,
             ];
         }
 
