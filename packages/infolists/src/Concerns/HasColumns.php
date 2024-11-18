@@ -3,7 +3,6 @@
 namespace Filament\Infolists\Concerns;
 
 use Filament\Infolists\ComponentContainer;
-use Illuminate\Support\Facades\Log;
 
 trait HasColumns
 {
